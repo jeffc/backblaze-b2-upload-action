@@ -15,5 +15,5 @@ GITHUB_EVENT_PATH=$GITHUB_EVENT_PATH
 . /venv/bin/activate
 echo $GITHUB_HEAD_REF
 
-b2 authorize-account $1 $2
-b2 upload-file $3 $4 $5
+b2 account authorize $1 $2
+b2 file upload $3 $4 $5
